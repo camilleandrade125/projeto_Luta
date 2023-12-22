@@ -1,0 +1,25 @@
+.figtharea{
+    display: flex;
+    gap: 20px;
+
+}
+
+#char,
+#monster{
+    flex: 1;
+
+}
+
+.lifebar {
+    height: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+
+}
+
+.lifebar .bar {
+    height: inherit;
+    background-color: red;
+    border-radius: 5px;
+
+}
